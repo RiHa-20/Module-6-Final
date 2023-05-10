@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<!--Riley Hajek-->
+		<title>Media on George S Patton</title>
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+		<link rel="stylesheet" href="css/styles.css">
+		<style type="text/css">
+		video{float:right;}
+		iframe{float:left;}
+		@media (min-width:750px){img{width:75%;}}
+		@media (min-width:1024px){img{width:90%;}}
+		 @media screen and (max-width: 600px) {table {overflow-x: auto;display: block;}}
+		 h1{animation-name:title;animation-duration:2s;}
+		@keyframes title{from{transform:scale(0,0);}to{transform:scale(2,2);}
+		img{width:200px;height:250px;object-fit:cover;}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1> George S. Patton</h1>
+		</header>
+		<div class="topnav">
+			<a href="index.html">Home Page</a>
+			<a href="AboutGeorgeSPatton.html">George S. Patton's early life</a>
+			<a href="GeorgeSPattonmilitarycareer.html">General Patton's Military career</a>
+			<a class="active" href="Media.html">George S. Patton media and what is new with HTML 5</a>
+			<a href="WILFM4-6.html">What I learned from modules 4-6</a>
+		</div>
+		<main>
+			<p style="background-color:antiquewhite;font-size:20px;"> Below are some additional videos and audio recordings of General Patton. The narrator of the National Archives video should sound familiar to many even before they are introduced. It is Ronald Reagan, who at the time was known for his work in the acting field, and later became the fortieth president of the United States. The video entitled "George S. Patton - Old Blood and Guts Documentary" is a really interesting documentary that goes into further detail about General Patton's life and military career. General Patton is buried alongside his men at the Luxembourg American Cemetery in Luxembourg. The City of Luxembourg served as the headquarters of the Third Army and is in part the reason why this cemetry was choosen for Patton's final resting place. If you click on the image below it will redircet you to the Patton Society website, which will give you a lot more information about General Patton if you want to leasrn more information on "Old Blood and Guts." <p>
+			<figure>
+			<img src="./images/General_Patton's_grave.jpg" alt="General Patton's Grave" usemap="#image_map">
+				<map name="image_map">
+				<area alt="Patton Society" title="Patton Society" href="http://pattonhq.com/" target="_blank" coords="-3,3,1199,899" shape="rect">
+			</map>
+			<figcaption> Fig. 4 Patton's Grave (Public Domain image)</figcaption>
+			</figure>
+			<hr>
+			</main>
+			<section>
+			<h4> Additional media on General Patton and Code validation</h4>
+			<iframe width="320" height="240" src="https://www.youtube.com/embed/e5k9vhRmU54" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+			<video width="320" height="240" controls>
+			<source src="The_Big_Picture_-_The_General_George_S._Patton_Story_c3MEt7xcvso.webm" type="video/webm">
+			</video>
+			<button type="button" class="collapsible"> What are semantic tags?</button>
+				<div class="content">
+				<table>
+					<caption><b> Semantic Elements</b></caption>
+					<tr>
+						<th> Semantic Elements</th>
+						<th> What they are</th>
+						<th> Where they are used</th>
+					</tr>
+					<tr>
+						<td>Semantic elements include the following tags: article, aside, details, figcaption, figure, footer, header, main, mark, nav, section, summary, and time </td>
+						<td> According to W3 Schools, semantic elements are elements with a meaning.</td>
+						<td>Semantic elements are used to define different parts of a webpage, they clearly define the content unlike non-semantic elements.</td>
+					</tr>
+				</table>
+				</div>
+			<button type="button" class="collapsible">What else is new to HTML 5?</button>
+			<div class="content">
+			<table>
+				<caption> <b>What else is new to HTML 5?</b></caption>
+				<tr>
+					<th> What is New to HTML 5?</th>
+					<td>There is a lot that is new to HTML 5 coding protocol. There has been a lot of new additions including the introduction of the audio and video tags that allows us to embed a video or audio onto our websites and CSS can be used on these tags to change a variety of different properties to the video or audio. Additionally, the header and footer tags where added in HTML 5 and is no longer needed to be identified with a div tag allong with a class. The addition of the already defined semantic tags was also introduced in HTML 5. Additionally, HTML 5 introduced the progress element, placeholder attribute and the email attribute.</td>
+				</tr>
+			</table>
+			</div>
+			<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < coll.length; i++) {coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {content.style.display = "none";}
+	else {content.style.display = "block";}});}
+</script>
+</section>
+			<h3> Code Validation</h3>
+			<img src="./images/index2CodeValidation.png" alt="index2CodeValidation" >
+			<img src="./images/MilitaryCareerCodeValidation.png" alt="MilitaryCareerCodeValidation">
+		<footer>
+			<p>Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research.Fair use is a use permitted by copyright statute that might otherwise be infringing. All rights reserved to their origional owners </p>
+			<p> Creator: Riley Hajek &copy;</p>
+			<p><a href="mailto:rhajek@stu.ctcd.edu?cc=&bcc=&subject=Module%204-6%20Project!" target="top">Email me</a></p>
+			<p><b> Attributes</b></p>
+			<p><a href="https://www.youtube.com/watch?v=e5k9vhRmU54" target="_blank">"George S Patton-Old Blood and Guts Documentary"</a> by <a href="https://www.youtube.com/@PeopleProfiles" target="_blank">The People Profile</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0" target="_blank">CC BY 4.0</a>
+			<p> National Archives video:<a href="https://commons.wikimedia.org/wiki/File:The_Big_Picture_-_The_General_George_S._Patton_Story_c3MEt7xcvso.webm">The U.S. Army</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, via Wikimedia Commons</p>
+			<p> Patton Speech: <a href="https://www.youtube.com/watch?v=uYjnWXFTQkM" target="_blank">"Patton Speech"</a> by <a href="https://www.youtube.com/@deadbolt8706" target="_blank">deadbolt8706</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0" target="_blank">CC BY 4.0</a></p>
+			<p><a>"San Gabriel Mission Playhouse"</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/2.0" target="_blank">CC BY-SA 2.0</a></p>
+		</footer>
+	</body>
+</html>

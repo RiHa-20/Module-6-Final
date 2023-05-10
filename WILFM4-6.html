@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+	<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<!--Riley Hajek-->
+		<title>What Mods 4-6 taught me</title>
+		<link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+		<link rel="stylesheet" href="css/styles.css">
+		<style type="text/css">
+		table,th,tr,td{border:1px solid black;font-size:20px;}
+		th{background-color:#00ffcc;}
+		td{background-color:white;}
+		 @media screen and (max-width: 600px) {table {overflow-x: auto;display: block;}}
+		 h1{animation-name:title;animation-duration:2s;}
+		@keyframes title{from{transform:skew(30deg,40deg);}to{transform: skew(0deg,0deg);}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1> George S. Patton</h1>
+		</header>
+		<div class="topnav">
+			<a href="index.html">Home Page</a>
+			<a  href="AboutGeorgeSPatton.html">George S. Patton's early life</a>
+			<a href="GeorgeSPattonmilitarycareer.html">General Patton's Military career</a>
+			<a href="Media.html">George S. Patton media and what is new with HTML 5</a>
+			<a class="active" href="WILFM4-6.html">What I learned from Modules 4-6</a>
+		</div>
+		<main>
+		<h2> What Modules 4-6 taught me about HTML and CSS</h2>
+	<p style="font-size:20px;font-family:Arial,Helvetica, sans-serif;background-color:#f3e6ff"> There was a lot to learn from Modules 4 through 6. It was fun to be able to learn how to build a website from the ground up with HTML and CSS. There are several semantic tags and CSS properties used in this project to make it interesting. There were a lot of different HTML tags and CSS properties used in this project that are important to it. The most important HTML tags used in this project are the semantic tags because they help divide the website into manageable parts and allow for different CSS properties to be applied to different portions of this website. Another extremely beneficial tag for this project was the map element because it allows an image to be used as a redirect link as it does here in my project. There are several CSS properties used in this project and all of them are important in making this site be able to be divided into parts so that content is easier to manage and the reader can see the parts of the webpage. One of the most important CSS properties used in this site is the "@media" rule, which allows this site to be responsive and be able to be read on multiple devices without having to have a scroll bar. Another really important CSS rule used in this site is the "@keyframes" property that allows this site to have different animations when the user switches pages. Additionally, the use of colors through CSS allows for there to be an easier seen separation between the different sections of content on this website. The CSS colors also allow users, when they mouse over a page link or collapsible, to see what will be opened and what the currently active page they are on is. Overall, there was a lot to learn about HTML and CSS that help to make this page what it is. Without CSS this website would not have easily seen separation making it harder for users to read.</p>
+	<hr>
+	</main>
+	<section>
+	<h3> Previous projects and relevant topics to this project.</h3>
+	<button type="button" class="collapsible"> Previous projects</button>
+		<div class="content">
+			<table>
+				<caption>Previous Projects</caption>
+				<tr>
+					<th> Module 1 Project</th>
+					<th> Module 2-3 Practical Project</th>
+					<th> Module 4 P1 Project</th>
+					<th> Module 5 (M4 P2) Project</th>
+				</tr>
+				<tr>
+					<td> <a href="https://sites.google.com/view/hajekr-mhotiproject" target="_blank"> My History of the Internet Project (Module 1)</a></td>
+					<td> <a href="https://riha-20.github.io/Module-2-3-Practical-Project/" target="_blank"> Module 2-3 project</a></td>
+					<td> <a href="https://riha-20.github.io/Modlue-4-PP1/" target="_blank"> Module 4 Part 1 </a></td>
+					<td> <a href="https://riha-20.github.io/Module-5-M4PP-part-2-Project/" target="_blank">Module 5(M4 part 2)</a></td>
+				</tr>
+			</table>
+		</div>
+		<button type="button" class="collapsible">Relevant topics from  previous Modules to this project</button>
+			<div class="content">
+			<table>
+				<caption> Relevant topics from Modules 4 through 6 to this project</caption>
+				<tr>
+					<th> Relevant topics from Module 4</th>
+					<th> Relevant topics from Module 5</th>
+					<th> Relevant topics from Module 6</th>
+				</tr>
+				<tr>
+					<td>There is a lot to learn from Module 4. Module 4 introduced us as a class to basic HTML. The most relevant topics discussed in module 4 that relates to this project was how to create an HTML skeleton, this helped to create the basic structure of every page on this site. Additionally, module 4 introduced the W3C validator which is a useful tool for anyone learning HTML to validate their site.</td>
+					<td>There is a lot to learn from Module 5. Module 5 introduced us as a class to CSS and how it can be used to layout a website and change many of different aspects of a website. Additionally, module 5 introduced responsive web design which allows for a website to change its sizing and format when the sizing of the screen a website is viewed on changes. Responsive Web Design (RWD) and CSS are used in this site to control several aspects including colors, sizings, and used to control several aspects when the device screen size gets smaller. </td>
+					<td>There is a lot to learn from Module 6. Module 6 goes into further advanced HTML and CSS practices, which helps to make a website look nicer and more advanced. Additonally, module 6 talkes about semantic tags furtherand shows how they give meaning to the code and make a website structured better.</td>
+				</tr>
+			</table>
+			</div>
+			<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+for (i = 0; i < coll.length; i++) {coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {content.style.display = "none";}
+	else {content.style.display = "block";}});}
+</script>
+</section>
+		<footer>
+			<p>Copyright Disclaimer under section 107 of the Copyright Act 1976, allowance is made for “fair use” for purposes such as criticism, comment, news reporting, teaching, scholarship, education and research. Fair use is a use permitted by copyright statute that might otherwise be infringing. All rights reserved to their original owners </p>
+			<p> Creator: Riley Hajek &copy;</p>
+			<p><a href="mailto:rhajek@stu.ctcd.edu?cc=&bcc=&subject=Module%204-6%20Project!" target="top">Email me</a></p>
+			<p><b> Attributes</b></p>
+			<p><a href="https://www.youtube.com/watch?v=e5k9vhRmU54" target="_blank">"George S Patton-Old Blood and Guts Documentary"</a> by <a href="https://www.youtube.com/@PeopleProfiles" target="_blank">The People Profile</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0" target="_blank">CC BY 4.0</a>
+			<p> National Archives video:<a href="https://commons.wikimedia.org/wiki/File:The_Big_Picture_-_The_General_George_S._Patton_Story_c3MEt7xcvso.webm">The U.S. Army</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, via Wikimedia Commons</p>
+			<p> Patton Speech: <a href="https://www.youtube.com/watch?v=uYjnWXFTQkM" target="_blank">"Patton Speech"</a> by <a href="https://www.youtube.com/@deadbolt8706" target="_blank">deadbolt8706</a> is licensed under <a href="http://creativecommons.org/licenses/by/4.0" target="_blank">CC BY 4.0</a></p>
+			<p><a>"San Gabriel Mission Playhouse"</a> is licensed under <a href="http://creativecommons.org/licenses/by-sa/2.0" target="_blank">CC BY-SA 2.0</a></p>
+		</footer>
+	</body>
